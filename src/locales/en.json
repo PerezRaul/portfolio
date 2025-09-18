@@ -2,8 +2,7 @@
   "menu": {
     "about": "About me",
     "experience": "Experience",
-    "education": "Education",
-    "contact": "Contact"
+    "education": "Education"
   },
   "educationPage": {
     "academicTitles": {

@@ -56,9 +56,5 @@ const menus = [
     name: 'menu.education', 
     path: '/education' 
   },
-  { 
-    name: 'menu.contact', 
-    path: '/contact' 
-  },
 ]
 </script>
