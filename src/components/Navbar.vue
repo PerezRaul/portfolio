@@ -2,9 +2,10 @@
   <nav class="d-flex flex-column justify-content-center align-items-center flex-shrink-0 p-3 bg-light" style="width: 280px;">
     <div class="text-center mb-3">
       <img 
-        src="https://picsum.photos/id/1/200/200" 
+        :src="userImage" 
         alt="Foto de perfil" 
         class="img-fluid rounded-circle mb-3"
+        style="width:180px; height:180px; object-fit:cover;"
       />
       <h4 class="fw-bold">Raúl Pérez Portolés</h4>
     </div>
@@ -33,6 +34,7 @@
 
 <script setup>
 import { useI18n } from 'vue-i18n'
+import userImage from '@/assets/images/profile/raul.jpg'
 
 const { locale } = useI18n()
 const currentLocale = locale
