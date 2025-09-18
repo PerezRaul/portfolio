@@ -1,0 +1,43 @@
+{
+  "menu": {
+    "about": "Sobre mi",
+    "experience": "Experiència",
+    "education": "Educació",
+    "contact": "Contacte"
+  },
+  "educationPage": {
+    "academicTitles": {
+      "title": "Educació",
+      "asix": {
+        "title": "Títol de Tècnic Superior en Administració de Sistemes Informàtics en Xarxa",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2016-2017"
+      },
+      "daw": {
+        "title": "Títol de Tècnic Superior en Desenvolupament d'Aplicacions Web",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2014-2016"
+      },
+      "smx": {
+        "title": "Títol de Tècnic en Sistemes Microinformàtics i Xarxes",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2011–2013"
+      }
+    },
+    "languages": {
+      "title": "Idiomes",
+      "spanish": {
+        "title": "Espanyol",
+        "level": "Natiu"
+      },
+      "catalan": {
+        "title": "Català",
+        "level": "Avançat"
+      },
+      "english": {
+        "title": "Anglès",
+        "level": "Intermedi"
+      }
+    }
+  }
+}

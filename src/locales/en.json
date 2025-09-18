@@ -1,0 +1,43 @@
+{
+  "menu": {
+    "about": "About me",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "educationPage": {
+    "academicTitles": {
+      "title": "Education",
+      "asix": {
+        "title": "Higher Technician Degree in Networked Computer Systems Administration",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2016-2017"
+      },
+      "daw": {
+        "title": "Higher Technician Degree in Web Application Development",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2014-2016"
+      },
+      "smx": {
+        "title": "Technician Degree in Microcomputer Systems and Networks",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2011–2013"
+      }
+    },
+    "languages": {
+      "title": "Languages",
+      "spanish": {
+        "title": "Spanish",
+        "level": "Native"
+      },
+      "catalan": {
+        "title": "Catalan",
+        "level": "Advanced"
+      },
+      "english": {
+        "title": "English",
+        "level": "Intermediate"
+      }
+    }
+  }
+}
