@@ -4,15 +4,15 @@
     "education": "Educación",
     "experience": "Experiencia",
     "languages": {
-      "spanish":{
+      "spanish": {
         "code": "es",
         "label": "Español"
       },
-      "catalan":{
+      "catalan": {
         "code": "cat",
         "label": "Catalán"
       },
-      "english":{
+      "english": {
         "code": "en",
         "label": "Inglés"
       }
@@ -131,6 +131,31 @@
       "company": "Informática Bellvitge",
       "years": "Septiembre 2012 - Abril 2013",
       "description": "Instalación de sistemas operativos, formateo, reparación, ampliación y montaje de equipos informáticos. Substitución de hardware y solución de errores administrativos y técnicos."
+    }
+  },
+  "aboutPage": {
+    "title": "Sobre mí",
+    "description": "Soy Full Stack Developer especializado en PHP con 9 años de experiencia en desarrollo web y de aplicaciones. Durante mi trayectoria he trabajado en proyectos diversos que me han permitido perfeccionar mis conocimientos en tecnologías back-end y front-end, así como colaborar estrechamente con equipos multidisciplinares.",
+    "description2": "Me caracterizo por ser un profesional organizado, centrado en los detalles, proactivo y con gran capacidad de aprendizaje autodidacta cuando es necesario. Disfruto del trabajo en equipo y de aportar soluciones innovadoras y eficientes.",
+    "description3": "Estoy abierto a nuevas oportunidades laborales que me permitan seguir creciendo junto a la empresa y contribuir con mi experiencia técnica y compromiso profesional.",
+    "skills": {
+      "title": "Habilidades",
+      "teamWork": "Trabajo en equipo",
+      "feedback": "Capacidad de recibir feedback",
+      "learning": "Aprendizaje Continuo",
+      "autodidact": "Autodidacta",
+      "fellowship": "Compañerismo",
+      "details": "Centrado en detalles",
+      "organized": "Organizado",
+      "proactive": "Proactivo"
+    },
+    "interests": {
+      "title": "Intereses",
+      "games": "Jugar a videojuegos",
+      "motorbike": "Viajar en moto",
+      "series": "Series y películas",
+      "nature": "Senderismo y naturaleza",
+      "harryPotter": "Saga Harry Potter"
     }
   }
 }

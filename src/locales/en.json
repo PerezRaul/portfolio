@@ -4,15 +4,15 @@
     "education": "Education",
     "experience": "Experience",
     "languages": {
-      "spanish":{
+      "spanish": {
         "code": "es",
         "label": "Spanish"
       },
-      "catalan":{
+      "catalan": {
         "code": "cat",
         "label": "Catalan"
       },
-      "english":{
+      "english": {
         "code": "en",
         "label": "English"
       }
@@ -131,6 +131,31 @@
       "company": "Informática Bellvitge",
       "years": "September 2012 - April 2013",
       "description": "Installation of operating systems, formatting, repair, upgrading and assembly of computer equipment. Hardware replacement and resolution of administrative and technical issues."
+    }
+  },
+  "aboutPage": {
+    "title": "About Me",
+    "description": "I am a Full Stack Developer specialized in PHP with 9 years of experience in web and application development. Throughout my career, I have worked on diverse projects that have allowed me to refine my knowledge in back-end and front-end technologies, as well as collaborate closely with multidisciplinary teams.",
+    "description2": "I am characterized as an organized, detail-oriented, proactive professional with a great ability for self-taught learning when necessary. I enjoy teamwork and contributing innovative and efficient solutions.",
+    "description3": "I am open to new job opportunities that allow me to continue growing alongside the company and contribute with my technical experience and professional commitment.",
+    "skills": {
+      "title": "Skills",
+      "teamWork": "Teamwork",
+      "feedback": "Ability to receive feedback",
+      "learning": "Continuous Learning",
+      "autodidact": "Self-taught",
+      "fellowship": "Fellowship",
+      "details": "Detail-oriented",
+      "organized": "Organized",
+      "proactive": "Proactive"
+    },
+    "interests": {
+      "title": "Interests",
+      "games": "Playing video games",
+      "motorbike": "Traveling by motorbike",
+      "series": "Series and movies",
+      "nature": "Hiking and nature",
+      "harryPotter": "Harry Potter saga"
     }
   }
 }

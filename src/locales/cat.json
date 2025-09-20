@@ -4,15 +4,15 @@
     "education": "Educació",
     "experience": "Experiència",
     "languages": {
-      "spanish":{
+      "spanish": {
         "code": "es",
         "label": "Espanyol"
       },
-      "catalan":{
+      "catalan": {
         "code": "cat",
         "label": "Català"
       },
-      "english":{
+      "english": {
         "code": "en",
         "label": "Anglès"
       }
@@ -131,6 +131,31 @@
       "company": "Informàtica Bellvitge",
       "years": "Setembre 2012 - Abril 2013",
       "description": "Instal·lació de sistemes operatius, formatat, reparació, ampliació i muntatge d'equips informàtics. Substitució de maquinari i resolució d'errors administratius i tècnics."
+    }
+  },
+  "aboutPage": {
+    "title": "Sobre mi",
+    "description": "Soc Full Stack Developer especialitzat en PHP amb 9 anys d’experiència en desenvolupament web i d’aplicacions. Al llarg de la meva trajectòria he treballat en projectes diversos que m’han permès perfeccionar els meus coneixements en tecnologies back-end i front-end, així com col·laborar estretament amb equips multidisciplinaris.",
+    "description2": "Em caracteritzo per ser un professional organitzat, centrat en els detalls, proactiu i amb gran capacitat d’aprenentatge autodidacta quan és necessari. Gaudeixo del treball en equip i d’aportar solucions innovadores i eficients.",
+    "description3": "Estic obert a noves oportunitats laborals que em permetin continuar creixent juntament amb l’empresa i contribuir amb la meva experiència tècnica i compromís professional.",
+    "skills": {
+      "title": "Habilitats",
+      "teamWork": "Treball en equip",
+      "feedback": "Capacitat de rebre feedback",
+      "learning": "Aprenentatge continu",
+      "autodidact": "Autodidacta",
+      "fellowship": "Companyonia",
+      "details": "Centrat en els detalls",
+      "organized": "Organitzat",
+      "proactive": "Proactiu"
+    },
+    "interests": {
+      "title": "Interessos",
+      "games": "Jugar a videojocs",
+      "motorbike": "Viatjar en moto",
+      "series": "Sèries i pel·lícules",
+      "nature": "Excursionisme i natura",
+      "harryPotter": "Saga Harry Potter"
     }
   }
 }
