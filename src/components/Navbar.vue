@@ -5,11 +5,24 @@
         :src="userImage" 
         alt="Foto de perfil" 
         class="rounded-circle mb-3"
-        style="width:180px; height:180px; object-fit:cover;"
+        style="width: 180px; height: 180px; object-fit: cover;" 
       />
-      <h4 class="fw-bold mb-0">Raúl Pérez Portolés</h4>
+      <h4 class="fw-bold mb-1">Raúl Pérez Portolés</h4>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="https://github.com/PerezRaul" target="_blank" rel="noopener noreferrer" class="text-dark fs-5">
+          <font-awesome-icon :icon="['fab', 'github']" />
+        </a>
+        <a href="tel:+34633053118" class="text-dark fs-5">
+          <font-awesome-icon icon="phone" />
+        </a>
+        <a href="mailto:raul.perez.portoles@gmail.com" class="text-dark fs-5">
+          <font-awesome-icon icon="envelope" />
+        </a>
+        <a :href="cvFile" download class="text-dark fs-5">
+          <font-awesome-icon icon="file-download" />
+        </a>
+      </div>
     </div>
-      
     <ul class="nav nav-pills flex-column mb-4">
       <li v-for="menu in menus" :key="menu.path" class="nav-item">
         <router-link 
@@ -23,15 +36,15 @@
     </ul>
 
     <div class="d-flex gap-2 justify-content-center">
-      <img
-        v-for="language in languages"
-        :key="$t(language.code)"
-        :src="language.logo"
+      <img 
+        v-for="language in languages" 
+        :key="$t(language.code)" 
+        :src="language.logo" 
         :alt="$t(language.label)"
-        :title="$t(language.label)"
-        class="flag-img"
+        :title="$t(language.label)" 
+        class="flag-img" 
         :class="{ active: currentLocale === $t(language.code) }"
-        @click="setLanguage($t(language.code))"
+        @click="setLanguage($t(language.code))" 
       />
     </div>
   </nav>
@@ -43,6 +56,7 @@ import userImage from '@/assets/images/profile/raul.jpg'
 import logoES from '@/assets/images/languages/es.png'
 import logoCAT from '@/assets/images/languages/cat.png'
 import logoEN from '@/assets/images/languages/en.png'
+import cvFile from '@/assets/documents/cv.pdf'
 
 const { locale } = useI18n()
 const currentLocale = locale
