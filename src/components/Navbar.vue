@@ -1,5 +1,5 @@
 <template>
-  <nav class="d-flex flex-column justify-content-center align-items-center flex-shrink-0 p-3 bg-light" style="width: 280px;">
+  <nav class="d-flex flex-column justify-content-center align-items-center flex-shrink-0 p-3 bg-light sidebar-fixed">
     <div class="text-center mb-3">
       <img 
         :src="userImage" 
@@ -58,3 +58,15 @@ const menus = [
   },
 ]
 </script>
+
+<style scoped>
+.sidebar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 280px;
+  overflow-y: auto;
+  z-index: 1030;
+}
+</style>

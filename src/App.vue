@@ -1,7 +1,7 @@
 <template>
-  <div class="d-flex vh-100">
+  <div class="d-flex">
     <Navbar />
-    <main class="flex-grow-1 p-4">
+    <main class="main-content flex-grow-1 p-4">
       <router-view />
     </main>
   </div>
@@ -11,4 +11,8 @@
 import Navbar from '@/components/Navbar.vue'
 </script>
 
-<style scoped></style>
+<style scoped>
+.main-content {
+  margin-left: 280px;
+}
+</style>
