@@ -1,7 +1,7 @@
 <template>
   <section id="education" class="py-4">
     <div class="container">
-      <h2 class="text-center mb-4">{{ $t("educationPage.academicTitles.title") }}</h2>
+      <h2 class="text-primary text-center mb-4">{{ $t("educationPage.academicTitles.title") }}</h2>
       <div class="row g-3">
         <div class="col-md-6" v-for="(academicTitle, index) in academicTitles" :key="index">
           <div class="card shadow-sm h-100">
@@ -30,7 +30,7 @@
   </section>
   <section id="languages" class="py-2">
     <div class="container py-4">
-      <h2 class="text-center mb-4">{{ $t("educationPage.languages.title") }}</h2>
+      <h2 class="text-primary text-center mb-4">{{ $t("educationPage.languages.title") }}</h2>
       <div class="row g-3">
         <div
           class="col-md-4"

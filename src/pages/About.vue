@@ -1,7 +1,7 @@
 <template>
   <section id="education" class="py-4">
     <div class="container">
-      <h2 class="text-center mb-4">{{ $t("aboutPage.title") }}</h2>
+      <h2 class="text-primary text-center mb-4">{{ $t("aboutPage.title") }}</h2>
       <p class="lead mb-3">{{ $t("aboutPage.description") }}</p>
       <p class="lead mb-3">{{ $t("aboutPage.description2") }}</p>
       <p class="lead mb-5">{{ $t("aboutPage.description3") }}</p>
@@ -63,7 +63,7 @@ const interests = [
   border-radius: 0.5rem;
   margin-bottom: 0.5rem;
   background-color: #f8f9fa;
-  border-left: 4px solid #0d6efd !important; 
+  border-left: 4px solid var(--bs-primary) !important; 
   transition: all 0.3s ease;
 }
 

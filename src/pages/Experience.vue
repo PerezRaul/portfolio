@@ -1,7 +1,7 @@
 <template>
   <section id="experience" class="py-4">
     <div class="container">
-      <h2 class="text-center mb-4">{{ $t("experiencePage.title") }}</h2>
+      <h2 class="text-primary text-center mb-4">{{ $t("experiencePage.title") }}</h2>
       <div
         v-for="(experience, index) in experiences"
         :key="index"
