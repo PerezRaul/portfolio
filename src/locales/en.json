@@ -2,7 +2,21 @@
   "menu": {
     "about": "About me",
     "education": "Education",
-    "experience": "Experience"
+    "experience": "Experience",
+    "languages": {
+      "spanish":{
+        "code": "es",
+        "label": "Spanish"
+      },
+      "catalan":{
+        "code": "cat",
+        "label": "Catalan"
+      },
+      "english":{
+        "code": "en",
+        "label": "English"
+      }
+    }
   },
   "educationPage": {
     "academicTitles": {

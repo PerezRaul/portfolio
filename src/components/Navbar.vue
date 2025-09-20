@@ -1,16 +1,16 @@
 <template>
-  <nav class="d-flex flex-column justify-content-center align-items-center flex-shrink-0 p-3 bg-light sidebar-fixed">
+  <nav class="sidebar-fixed bg-light">
     <div class="text-center mb-3">
       <img 
         :src="userImage" 
         alt="Foto de perfil" 
-        class="img-fluid rounded-circle mb-3"
+        class="rounded-circle mb-3"
         style="width:180px; height:180px; object-fit:cover;"
       />
-      <h4 class="fw-bold">Raúl Pérez Portolés</h4>
+      <h4 class="fw-bold mb-0">Raúl Pérez Portolés</h4>
     </div>
       
-    <ul class="nav nav-pills flex-column mb-auto">
+    <ul class="nav nav-pills flex-column mb-4">
       <li v-for="menu in menus" :key="menu.path" class="nav-item">
         <router-link 
           :to="menu.path" 
@@ -22,12 +22,17 @@
       </li>
     </ul>
 
-    <div>
-      <select v-model="currentLocale" @change="changeLocale">
-        <option value="es">ES</option>
-        <option value="en">EN</option>
-        <option value="cat">CAT</option>
-      </select>
+    <div class="d-flex gap-2 justify-content-center">
+      <img
+        v-for="language in languages"
+        :key="$t(language.code)"
+        :src="language.logo"
+        :alt="$t(language.label)"
+        :title="$t(language.label)"
+        class="flag-img"
+        :class="{ active: currentLocale === $t(language.code) }"
+        @click="setLanguage($t(language.code))"
+      />
     </div>
   </nav>
 </template>
@@ -35,12 +40,16 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 import userImage from '@/assets/images/profile/raul.jpg'
+import logoES from '@/assets/images/languages/es.png'
+import logoCAT from '@/assets/images/languages/cat.png'
+import logoEN from '@/assets/images/languages/en.png'
 
 const { locale } = useI18n()
 const currentLocale = locale
 
-const changeLocale = () => {
-  locale.value = currentLocale.value
+const setLanguage = (code) => {
+  locale.value = code
+  currentLocale.value = code
 }
 
 const menus = [
@@ -57,6 +66,24 @@ const menus = [
     path: '/education' 
   },
 ]
+
+const languages = [
+  {
+    code: 'menu.languages.spanish.code',
+    label: 'menu.languages.spanish.label',
+    logo: logoES
+  },
+  {
+    code: 'menu.languages.catalan.code',
+    label: 'menu.languages.catalan.label',
+    logo: logoCAT
+  },
+  {
+    code: 'menu.languages.english.code',
+    label: 'menu.languages.english.label',
+    logo: logoEN
+  },
+]
 </script>
 
 <style scoped>
@@ -68,5 +95,31 @@ const menus = [
   width: 280px;
   overflow-y: auto;
   z-index: 1030;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flag-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.flag-img.active {
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px rgba(13,110,253,0.4);
+  transform: scale(1.1);
+}
+
+.flag-img:hover {
+  border-color: #0d6efd;
+  box-shadow: 0 0 6px rgba(13,110,253,0.3);
 }
 </style>

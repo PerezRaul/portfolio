@@ -2,7 +2,21 @@
   "menu": {
     "about": "Sobre mi",
     "education": "Educació",
-    "experience": "Experiència"
+    "experience": "Experiència",
+    "languages": {
+      "spanish":{
+        "code": "es",
+        "label": "Espanyol"
+      },
+      "catalan":{
+        "code": "cat",
+        "label": "Català"
+      },
+      "english":{
+        "code": "en",
+        "label": "Anglès"
+      }
+    }
   },
   "educationPage": {
     "academicTitles": {
