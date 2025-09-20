@@ -1,8 +1,8 @@
 {
   "menu": {
     "about": "About me",
-    "experience": "Experience",
-    "education": "Education"
+    "education": "Education",
+    "experience": "Experience"
   },
   "educationPage": {
     "academicTitles": {
@@ -37,6 +37,86 @@
         "title": "English",
         "level": "Intermediate"
       }
+    }
+  },
+  "experiencePage": {
+    "title": "Experience",
+    "technologies": {
+      "title": "Technologies",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "vue": "Vue",
+      "javascript": "JavaScript",
+      "jquery": "jQuery",
+      "bootstrap": "Bootstrap",
+      "html": "HTML",
+      "css": "CSS",
+      "mysql": "MySQL",
+      "redis": "Redis",
+      "git": "Git",
+      "github": "GitHub",
+      "gitlab": "GitLab",
+      "bitbucket": "Bitbucket",
+      "clickup": "ClickUp",
+      "aws": "AWS",
+      "docker": "Docker",
+      "jira": "JIRA",
+      "jenkins": "Jenkins",
+      "apache": "Apache",
+      "apple": "Apple",
+      "powershell": "PowerShell",
+      "putty": "PuTTY",
+      "sqlserver": "SQL Server",
+      "ubuntu": "Ubuntu",
+      "windows": "Windows"
+    },
+    "rna": {
+      "role": "Full Stack Developer - PHP",
+      "company": "RNA Ibérica",
+      "years": "October 2022 - Present",
+      "description": "Development of web applications. Back End used: PHP, Laravel. Front End used: Bootstrap, JavaScript, Vue 3. Databases with MySQL. Version control with Git. SCRUM methodology through ClickUp."
+    },
+    "hoyvoy": {
+      "role": "Full Stack Developer - PHP",
+      "company": "Hoy - Voy",
+      "years": "August 2018 - July 2022",
+      "description": "Development of web applications. Back End used: PHP, Laravel. Front End used: Bootstrap, jQuery, JavaScript, VueJS. Databases with MySQL. Version control with Git – Sourcetree, Tower. Kanban methodology through TeamWork. Constant contact with different internal departments."
+    },
+    "bbva": {
+      "role": "Front End Developer",
+      "company": "BBVA IT España",
+      "years": "April 2018 - August 2018",
+      "description": "Development of the Front End of applications. Front End used: JavaScript and jQuery. Kanban methodology through JIRA. Version control with Git – Sourcetree. Code deployment through Dimensions and Jenkins."
+    },
+    "mitsubishi": {
+      "role": "Full Stack Developer - PHP & Software QA",
+      "company": "Mitsubishi Electric España",
+      "years": "October 2017 - April 2018",
+      "description": "Development of web applications, QA for web and desktop applications. Back End used: PHP. Front End used: HTML, CSS and jQuery. Databases with MySQL. Reporting with Redmine. Kanban methodology with Redmine and Team Foundation Server."
+    },
+    "csm": {
+      "role": "Systems Administrator",
+      "company": "CS&M",
+      "years": "Sept. 2016 - April 2017",
+      "description": "Helpdesk, resolution of administrative and technical issues. Installation of operating systems, formatting, repair, upgrading and assembly of computer equipment."
+    },
+    "globalHoldings": {
+      "role": "Full Stack Developer & Software QA",
+      "company": "Global Holdings",
+      "years": "July 2016 - Sept. 2016",
+      "description": "Development of web applications and manual QA. Back End used: PHP. Front End used: HTML, CSS, JavaScript and jQuery. Databases with MySQL."
+    },
+    "jesuitesEducacio": {
+      "role": "Full Stack Developer - PHP",
+      "company": "Jesuïtes Educació",
+      "years": "June 2015 - July 2016",
+      "description": "Development of web applications. Back End used: PHP. Front End used: HTML, CSS, JavaScript, jQuery, AJAX, JSON and Bootstrap. Databases with MySQL."
+    },
+    "informaticaBellvitge": {
+      "role": "Systems Technician",
+      "company": "Informática Bellvitge",
+      "years": "September 2012 - April 2013",
+      "description": "Installation of operating systems, formatting, repair, upgrading and assembly of computer equipment. Hardware replacement and resolution of administrative and technical issues."
     }
   }
 }

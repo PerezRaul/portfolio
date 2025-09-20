@@ -1,9 +1,8 @@
 {
   "menu": {
     "about": "Sobre mi",
-    "experience": "Experiència",
     "education": "Educació",
-    "contact": "Contacte"
+    "experience": "Experiència"
   },
   "educationPage": {
     "academicTitles": {
@@ -38,6 +37,86 @@
         "title": "Anglès",
         "level": "Intermedi"
       }
+    }
+  },
+  "experiencePage": {
+    "title": "Experiència",
+    "technologies": {
+      "title": "Tecnologies",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "vue": "Vue",
+      "javascript": "JavaScript",
+      "jquery": "jQuery",
+      "bootstrap": "Bootstrap",
+      "html": "HTML",
+      "css": "CSS",
+      "mysql": "MySQL",
+      "redis": "Redis",
+      "git": "Git",
+      "github": "GitHub",
+      "gitlab": "GitLab",
+      "bitbucket": "Bitbucket",
+      "clickup": "ClickUp",
+      "aws": "AWS",
+      "docker": "Docker",
+      "jira": "JIRA",
+      "jenkins": "Jenkins",
+      "apache": "Apache",
+      "apple": "Apple",
+      "powershell": "PowerShell",
+      "putty": "PuTTY",
+      "sqlserver": "SQL Server",
+      "ubuntu": "Ubuntu",
+      "windows": "Windows"
+    },
+    "rna": {
+      "role": "Full Stack Developer - PHP",
+      "company": "RNA Ibérica",
+      "years": "Octubre 2022 - Actualitat",
+      "description": "Desenvolupament d'aplicacions web. Back End utilitzat: PHP, Laravel. Front End utilitzat: Bootstrap, JavaScript, Vue 3. Bases de dades amb MySQL. Control de versions amb Git. Metodologia SCRUM a través de ClickUp."
+    },
+    "hoyvoy": {
+      "role": "Full Stack Developer - PHP",
+      "company": "Hoy - Voy",
+      "years": "Agost 2018 - Juliol 2022",
+      "description": "Desenvolupament d'aplicacions web. Back End utilitzat: PHP, Laravel. Front End utilitzat: Bootstrap, jQuery, JavaScript, VueJS. Bases de dades amb MySQL. Control de versions amb Git – Sourcetree, Tower. Metodologia Kanban a través de TeamWork. En contacte continu amb els diferents departaments interns."
+    },
+    "bbva": {
+      "role": "Front End Developer",
+      "company": "BBVA IT Espanya",
+      "years": "Abril 2018 - Agost 2018",
+      "description": "Desenvolupament del Front End de les aplicacions. Front End utilitzat: JavaScript i jQuery. Metodologia Kanban a través de JIRA. Control de versions amb Git – Sourcetree. Desplegament del codi a través de Dimensions i Jenkins."
+    },
+    "mitsubishi": {
+      "role": "Full Stack Developer - PHP & Software QA",
+      "company": "Mitsubishi Electric Espanya",
+      "years": "Octubre 2017 - Abril 2018",
+      "description": "Desenvolupament d'aplicacions web, QA d'aplicacions web i d'escriptori. Back End utilitzat: PHP. Front End utilitzat: HTML, CSS i jQuery. Bases de dades amb MySQL. Informes amb Redmine. Metodologia Kanban amb Redmine i Team Foundation Server."
+    },
+    "csm": {
+      "role": "Administrador de Sistemes",
+      "company": "CS&M",
+      "years": "Set. 2016 - Abril 2017",
+      "description": "Helpdesk, resolució d'errors administratius i tècnics. Instal·lació de sistemes operatius, formatat, reparació, ampliació i muntatge d'equips informàtics."
+    },
+    "globalHoldings": {
+      "role": "Full Stack Developer & Software QA",
+      "company": "Global Holdings",
+      "years": "Juliol 2016 - Set. 2016",
+      "description": "Desenvolupament d'aplicacions web i QA manual. Back End utilitzat: PHP. Front End utilitzat: HTML, CSS, JavaScript i jQuery. Bases de dades amb MySQL."
+    },
+    "jesuitesEducacio": {
+      "role": "Full Stack Developer - PHP",
+      "company": "Jesuïtes Educació",
+      "years": "Juny 2015 - Juliol 2016",
+      "description": "Desenvolupament d'aplicacions web. Back End utilitzat: PHP. Front End utilitzat: HTML, CSS, JavaScript, jQuery, AJAX, JSON i Bootstrap. Bases de dades amb MySQL."
+    },
+    "informaticaBellvitge": {
+      "role": "Tècnic de Sistemes",
+      "company": "Informàtica Bellvitge",
+      "years": "Setembre 2012 - Abril 2013",
+      "description": "Instal·lació de sistemes operatius, formatat, reparació, ampliació i muntatge d'equips informàtics. Substitució de maquinari i resolució d'errors administratius i tècnics."
     }
   }
 }
