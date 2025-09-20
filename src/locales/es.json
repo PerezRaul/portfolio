@@ -1,0 +1,161 @@
+{
+  "menu": {
+    "about": "Sobre mí",
+    "education": "Educación",
+    "experience": "Experiencia",
+    "languages": {
+      "spanish": {
+        "code": "es",
+        "label": "Español"
+      },
+      "catalan": {
+        "code": "cat",
+        "label": "Catalán"
+      },
+      "english": {
+        "code": "en",
+        "label": "Inglés"
+      }
+    }
+  },
+  "educationPage": {
+    "academicTitles": {
+      "title": "Educación",
+      "asix": {
+        "title": "Título de Técnico Superior en Administración de Sistemas Informáticos en Red",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2016-2017"
+      },
+      "daw": {
+        "title": "Título de Técnico Superior en Desarrollo de Aplicaciones Web",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2014-2016"
+      },
+      "smx": {
+        "title": "Título de Técnico en Sistemas Microinformáticos y Redes",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2011–2013"
+      }
+    },
+    "languages": {
+      "title": "Idiomas",
+      "spanish": {
+        "title": "Español",
+        "level": "Nativo"
+      },
+      "catalan": {
+        "title": "Catalán",
+        "level": "Avanzado"
+      },
+      "english": {
+        "title": "Inglés",
+        "level": "Intermedio"
+      }
+    }
+  },
+  "experiencePage": {
+    "title": "Experiencia",
+    "technologies": {
+      "title": "Tecnologías",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "vue": "Vue",
+      "javascript": "JavaScript",
+      "jquery": "jQuery",
+      "bootstrap": "Bootstrap",
+      "html": "HTML",
+      "css": "CSS",
+      "mysql": "MySQL",
+      "redis": "Redis",
+      "git": "Git",
+      "github": "GitHub",
+      "gitlab": "GitLab",
+      "bitbucket": "Bitbucket",
+      "clickup": "ClickUp",
+      "aws": "AWS",
+      "docker": "Docker",
+      "jira": "JIRA",
+      "jenkins": "Jenkins",
+      "apache": "Apache",
+      "apple": "Apple",
+      "powershell": "PowerShell",
+      "putty": "PuTTY",
+      "sqlserver": "SQL Server",
+      "ubuntu": "Ubuntu",
+      "windows": "Windows"
+    },
+    "rna": {
+      "role": "Full Stack Developer - PHP",
+      "company": "RNA Ibérica",
+      "years": "Octubre 2022 - Actualidad",
+      "description": "Desarrollo de aplicaciones web. Back End utilizado: PHP, Laravel. Front End utilizado: Bootstrap, JavaScript, Vue 3. Bases de datos con MySQL. Control de versiones Git. Metodología SCRUM a través de ClickUp."
+    },
+    "hoyvoy": {
+      "role": "Full Stack Developer - PHP",
+      "company": "Hoy - Voy",
+      "years": "Agosto 2018 - Julio 2022",
+      "description": "Desarrollo de aplicaciones web. Back End utilizado: PHP, Laravel. Front End utilizado: Bootstrap, jQuery, JavaScript, VueJS. Bases de datos con MySQL. Control de versiones Git – Sourcetree, Tower. Metodología Kanban a través de TeamWork. En continuo contacto con los diferentes departamentos internos."
+    },
+    "bbva": {
+      "role": "Front End Developer",
+      "company": "BBVA IT España",
+      "years": "Abril 2018 - Agosto 2018",
+      "description": "Desarrollo del Front End de las aplicaciones. Front End utilizado: JavaScript y jQuery. Metodología Kanban a través de JIRA. Control de versiones Git – Sourcetree. Despliegue del código a través de Dimensions y Jenkins."
+    },
+    "mitsubishi": {
+      "role": "Full Stack Developer - PHP & Software QA",
+      "company": "Mitsubishi Electric España",
+      "years": "Octubre 2017 - Abril 2018",
+      "description": "Desarrollo de aplicaciones web, QA aplicaciones web y escritorio. Back End utilizado: PHP. Front End utilizado: HTML, CSS y jQuery. Bases de datos con MySQL. Reportes con Redmine. Metodología Kanban con Redmine y Team Foundation Server."
+    },
+    "csm": {
+      "role": "Administrador de Sistemas",
+      "company": "CS&M",
+      "years": "Sep. 2016 - Abril 2017",
+      "description": "Helpdesk, solución de errores administrativos y técnicos. Instalación de sistemas operativos, formateo, reparación, ampliación y montaje de equipos informáticos."
+    },
+    "globalHoldings": {
+      "role": "Full Stack Developer & Software QA",
+      "company": "Global Holdings",
+      "years": "Julio 2016 - Sep. 2016",
+      "description": "Desarrollo de aplicaciones web y QA manual. Back End utilizado: PHP. Front End utilizado: HTML, CSS, JavaScript y jQuery. Bases de datos con MySQL."
+    },
+    "jesuitesEducacio": {
+      "role": "Full Stack Developer - PHP",
+      "company": "Jesuïtes Educació",
+      "years": "Junio 2015 - Julio 2016",
+      "description": "Desarrollo de aplicaciones web. Back End utilizado: PHP. Front End utilizado: HTML, CSS, JavaScript, jQuery, AJAX, JSON y Bootstrap. Bases de datos con MySQL."
+    },
+    "informaticaBellvitge": {
+      "role": "Técnico de Sistemas",
+      "company": "Informática Bellvitge",
+      "years": "Septiembre 2012 - Abril 2013",
+      "description": "Instalación de sistemas operativos, formateo, reparación, ampliación y montaje de equipos informáticos. Substitución de hardware y solución de errores administrativos y técnicos."
+    }
+  },
+  "aboutPage": {
+    "title": "Sobre mí",
+    "description": "Soy Full Stack Developer especializado en PHP con 9 años de experiencia en desarrollo web y de aplicaciones. Durante mi trayectoria he trabajado en proyectos diversos que me han permitido perfeccionar mis conocimientos en tecnologías back-end y front-end, así como colaborar estrechamente con equipos multidisciplinares.",
+    "description2": "Me caracterizo por ser un profesional organizado, centrado en los detalles, proactivo y con gran capacidad de aprendizaje autodidacta cuando es necesario. Disfruto del trabajo en equipo y de aportar soluciones innovadoras y eficientes.",
+    "description3": "Estoy abierto a nuevas oportunidades laborales que me permitan seguir creciendo junto a la empresa y contribuir con mi experiencia técnica y compromiso profesional.",
+    "skills": {
+      "title": "Habilidades",
+      "teamWork": "Trabajo en equipo",
+      "feedback": "Capacidad de recibir feedback",
+      "learning": "Aprendizaje Continuo",
+      "autodidact": "Autodidacta",
+      "fellowship": "Compañerismo",
+      "details": "Centrado en detalles",
+      "organized": "Organizado",
+      "proactive": "Proactivo"
+    },
+    "interests": {
+      "title": "Intereses",
+      "games": "Jugar a videojuegos",
+      "motorbike": "Viajar en moto",
+      "series": "Series y películas",
+      "nature": "Senderismo y naturaleza",
+      "harryPotter": "Saga Harry Potter"
+    }
+  }
+}

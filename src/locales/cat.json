@@ -1,0 +1,161 @@
+{
+  "menu": {
+    "about": "Sobre mi",
+    "education": "Educació",
+    "experience": "Experiència",
+    "languages": {
+      "spanish": {
+        "code": "es",
+        "label": "Espanyol"
+      },
+      "catalan": {
+        "code": "cat",
+        "label": "Català"
+      },
+      "english": {
+        "code": "en",
+        "label": "Anglès"
+      }
+    }
+  },
+  "educationPage": {
+    "academicTitles": {
+      "title": "Educació",
+      "asix": {
+        "title": "Títol de Tècnic Superior en Administració de Sistemes Informàtics en Xarxa",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2016-2017"
+      },
+      "daw": {
+        "title": "Títol de Tècnic Superior en Desenvolupament d'Aplicacions Web",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2014-2016"
+      },
+      "smx": {
+        "title": "Títol de Tècnic en Sistemes Microinformàtics i Xarxes",
+        "school": "Centre d'Estudis Joan XXIII",
+        "years": "2011–2013"
+      }
+    },
+    "languages": {
+      "title": "Idiomes",
+      "spanish": {
+        "title": "Espanyol",
+        "level": "Natiu"
+      },
+      "catalan": {
+        "title": "Català",
+        "level": "Avançat"
+      },
+      "english": {
+        "title": "Anglès",
+        "level": "Intermedi"
+      }
+    }
+  },
+  "experiencePage": {
+    "title": "Experiència",
+    "technologies": {
+      "title": "Tecnologies",
+      "php": "PHP",
+      "laravel": "Laravel",
+      "vue": "Vue",
+      "javascript": "JavaScript",
+      "jquery": "jQuery",
+      "bootstrap": "Bootstrap",
+      "html": "HTML",
+      "css": "CSS",
+      "mysql": "MySQL",
+      "redis": "Redis",
+      "git": "Git",
+      "github": "GitHub",
+      "gitlab": "GitLab",
+      "bitbucket": "Bitbucket",
+      "clickup": "ClickUp",
+      "aws": "AWS",
+      "docker": "Docker",
+      "jira": "JIRA",
+      "jenkins": "Jenkins",
+      "apache": "Apache",
+      "apple": "Apple",
+      "powershell": "PowerShell",
+      "putty": "PuTTY",
+      "sqlserver": "SQL Server",
+      "ubuntu": "Ubuntu",
+      "windows": "Windows"
+    },
+    "rna": {
+      "role": "Full Stack Developer - PHP",
+      "company": "RNA Ibérica",
+      "years": "Octubre 2022 - Actualitat",
+      "description": "Desenvolupament d'aplicacions web. Back End utilitzat: PHP, Laravel. Front End utilitzat: Bootstrap, JavaScript, Vue 3. Bases de dades amb MySQL. Control de versions amb Git. Metodologia SCRUM a través de ClickUp."
+    },
+    "hoyvoy": {
+      "role": "Full Stack Developer - PHP",
+      "company": "Hoy - Voy",
+      "years": "Agost 2018 - Juliol 2022",
+      "description": "Desenvolupament d'aplicacions web. Back End utilitzat: PHP, Laravel. Front End utilitzat: Bootstrap, jQuery, JavaScript, VueJS. Bases de dades amb MySQL. Control de versions amb Git – Sourcetree, Tower. Metodologia Kanban a través de TeamWork. En contacte continu amb els diferents departaments interns."
+    },
+    "bbva": {
+      "role": "Front End Developer",
+      "company": "BBVA IT Espanya",
+      "years": "Abril 2018 - Agost 2018",
+      "description": "Desenvolupament del Front End de les aplicacions. Front End utilitzat: JavaScript i jQuery. Metodologia Kanban a través de JIRA. Control de versions amb Git – Sourcetree. Desplegament del codi a través de Dimensions i Jenkins."
+    },
+    "mitsubishi": {
+      "role": "Full Stack Developer - PHP & Software QA",
+      "company": "Mitsubishi Electric Espanya",
+      "years": "Octubre 2017 - Abril 2018",
+      "description": "Desenvolupament d'aplicacions web, QA d'aplicacions web i d'escriptori. Back End utilitzat: PHP. Front End utilitzat: HTML, CSS i jQuery. Bases de dades amb MySQL. Informes amb Redmine. Metodologia Kanban amb Redmine i Team Foundation Server."
+    },
+    "csm": {
+      "role": "Administrador de Sistemes",
+      "company": "CS&M",
+      "years": "Set. 2016 - Abril 2017",
+      "description": "Helpdesk, resolució d'errors administratius i tècnics. Instal·lació de sistemes operatius, formatat, reparació, ampliació i muntatge d'equips informàtics."
+    },
+    "globalHoldings": {
+      "role": "Full Stack Developer & Software QA",
+      "company": "Global Holdings",
+      "years": "Juliol 2016 - Set. 2016",
+      "description": "Desenvolupament d'aplicacions web i QA manual. Back End utilitzat: PHP. Front End utilitzat: HTML, CSS, JavaScript i jQuery. Bases de dades amb MySQL."
+    },
+    "jesuitesEducacio": {
+      "role": "Full Stack Developer - PHP",
+      "company": "Jesuïtes Educació",
+      "years": "Juny 2015 - Juliol 2016",
+      "description": "Desenvolupament d'aplicacions web. Back End utilitzat: PHP. Front End utilitzat: HTML, CSS, JavaScript, jQuery, AJAX, JSON i Bootstrap. Bases de dades amb MySQL."
+    },
+    "informaticaBellvitge": {
+      "role": "Tècnic de Sistemes",
+      "company": "Informàtica Bellvitge",
+      "years": "Setembre 2012 - Abril 2013",
+      "description": "Instal·lació de sistemes operatius, formatat, reparació, ampliació i muntatge d'equips informàtics. Substitució de maquinari i resolució d'errors administratius i tècnics."
+    }
+  },
+  "aboutPage": {
+    "title": "Sobre mi",
+    "description": "Soc Full Stack Developer especialitzat en PHP amb 9 anys d’experiència en desenvolupament web i d’aplicacions. Al llarg de la meva trajectòria he treballat en projectes diversos que m’han permès perfeccionar els meus coneixements en tecnologies back-end i front-end, així com col·laborar estretament amb equips multidisciplinaris.",
+    "description2": "Em caracteritzo per ser un professional organitzat, centrat en els detalls, proactiu i amb gran capacitat d’aprenentatge autodidacta quan és necessari. Gaudeixo del treball en equip i d’aportar solucions innovadores i eficients.",
+    "description3": "Estic obert a noves oportunitats laborals que em permetin continuar creixent juntament amb l’empresa i contribuir amb la meva experiència tècnica i compromís professional.",
+    "skills": {
+      "title": "Habilitats",
+      "teamWork": "Treball en equip",
+      "feedback": "Capacitat de rebre feedback",
+      "learning": "Aprenentatge continu",
+      "autodidact": "Autodidacta",
+      "fellowship": "Companyonia",
+      "details": "Centrat en els detalls",
+      "organized": "Organitzat",
+      "proactive": "Proactiu"
+    },
+    "interests": {
+      "title": "Interessos",
+      "games": "Jugar a videojocs",
+      "motorbike": "Viatjar en moto",
+      "series": "Sèries i pel·lícules",
+      "nature": "Excursionisme i natura",
+      "harryPotter": "Saga Harry Potter"
+    }
+  }
+}

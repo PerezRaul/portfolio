@@ -1,11 +1,18 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="d-flex">
+    <Navbar />
+    <main class="main-content flex-grow-1 p-4">
+      <router-view />
+    </main>
+  </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import Navbar from '@/components/Navbar.vue'
+</script>
+
+<style scoped>
+.main-content {
+  margin-left: 280px;
+}
+</style>
