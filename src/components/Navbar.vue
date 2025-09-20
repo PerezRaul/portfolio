@@ -1,5 +1,5 @@
 <template>
-  <nav class="sidebar-fixed bg-light">
+  <nav class="sidebar-fixed bg-primary bg-opacity-25">
     <div class="text-center mb-3">
       <img 
         :src="userImage" 
@@ -19,7 +19,7 @@
           <font-awesome-icon icon="envelope" />
         </a>
         <a :href="cvFile" download class="text-dark fs-5">
-          <font-awesome-icon icon="file-download" />
+          <font-awesome-icon icon="file-pdf" />
         </a>
       </div>
     </div>
