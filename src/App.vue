@@ -12,7 +12,9 @@ import Navbar from '@/components/Navbar.vue'
 </script>
 
 <style scoped>
-.main-content {
-  margin-left: 280px;
+@media (min-width: 992px) {
+  .main-content {
+    margin-left: 280px;
+  }
 }
 </style>
