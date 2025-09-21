@@ -9,16 +9,19 @@
       />
       <h4 class="fw-bold mb-1">Raúl Pérez Portolés</h4>
       <div class="d-flex justify-content-center gap-3">
-        <a href="https://github.com/PerezRaul" target="_blank" rel="noopener noreferrer" class="text-dark fs-5">
+        <a href="https://github.com/PerezRaul" target="_blank" rel="noopener noreferrer" class="text-secondary fs-5">
           <font-awesome-icon :icon="['fab', 'github']" />
         </a>
-        <a href="tel:+34633053118" class="text-dark fs-5">
+        <a href="https://linkedin.com/in/raúl-pérez-portolés-0612b1129" target="_blank" rel="noopener noreferrer" class="text-secondary fs-5">
+          <font-awesome-icon :icon="['fab', 'linkedin']" />
+        </a>
+        <a href="tel:+34633053118" class="text-secondary fs-5">
           <font-awesome-icon icon="phone" />
         </a>
-        <a href="mailto:raul.perez.portoles@gmail.com" class="text-dark fs-5">
+        <a href="mailto:raul.perez.portoles@gmail.com" class="text-secondary fs-5">
           <font-awesome-icon icon="envelope" />
         </a>
-        <a :href="cvFile" download class="text-dark fs-5">
+        <a :href="cvFile" download class="text-secondary fs-5">
           <font-awesome-icon icon="file-pdf" />
         </a>
       </div>
