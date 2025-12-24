@@ -11,6 +11,7 @@
         style="width: 180px; height: 180px; object-fit: cover;" 
       />
       <h4 class="fw-bold mb-1">Raúl Pérez Portolés</h4>
+      <p class="text-secondary mb-1 fs-6">Full Stack PHP Developer</p>
       <div class="d-flex justify-content-center gap-3">
         <a href="https://github.com/PerezRaul" target="_blank" rel="noopener noreferrer" class="text-secondary fs-5">
           <font-awesome-icon :icon="['fab', 'github']" />
