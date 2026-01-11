@@ -132,6 +132,9 @@ const languages = [
   height: 100vh;
   height: 100dvh;
   width: 280px;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  box-sizing: border-box;
   z-index: 1100;
   background: rgba(198, 219, 255, 1);
   display: flex;
@@ -149,7 +152,7 @@ const languages = [
 
 .bars-menu, .times-menu {
   position: fixed;
-  top: 15px;
+  top: calc(15px + env(safe-area-inset-top));
   left: 15px;
   z-index: 1200;
   background: rgba(173, 181, 189, 0.8);
