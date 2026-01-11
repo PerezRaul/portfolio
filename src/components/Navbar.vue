@@ -130,6 +130,7 @@ const languages = [
   top: 0;
   left: 0;
   height: 100vh;
+  height: 100dvh;
   width: 280px;
   z-index: 1100;
   background: rgba(198, 219, 255, 1);
